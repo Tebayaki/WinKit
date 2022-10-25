@@ -2,7 +2,6 @@
 Windows Tools for personal use
 
 ## CopyPath:
----
 A shell extension that add items to shell context menu help to copy file or dir path in specific format.
 ### register:
 ```bash
@@ -17,7 +16,6 @@ regsvr32 /u CopyPath.dll
 ![](./pic/copypath_snap1.jpg)
 
 ## ErrMsg:
----
 Cmd tool to show text error message. Supports err code returned from GetLastError().
 ### usage:
 ```bash
@@ -29,7 +27,6 @@ ErrMsg 1 2
 ```
 
 ## IME:
----
 Enable/Disable input method engine or get current status.  
 ### usage:
 Automatically switch ime status when switch between normal and insert mode in Vscode Vim:
@@ -43,10 +40,16 @@ Automatically switch ime status when switch between normal and insert mode in Vs
 ```
 
 ## ResizeTB
----
 Narrow taskbar, only supports vertical taskbar on left of screen.
 ### usage:
 ```bash
 .\ResizeTB.exe 30
 ```
 ![](pic/resizetb_snap1.jpg)![](pic/resizetb_snap2.jpg)
+
+## RM2
+remove file/directory to recycle bin
+### usage:
+```bash
+rm2 .\file1.txt .\file2.txt
+```
