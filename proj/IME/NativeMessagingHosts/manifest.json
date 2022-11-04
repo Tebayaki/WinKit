@@ -1,9 +1,9 @@
 {
     "name": "com.ime",
     "description": "For Chrome extension to switch ime. Write this filepath into HKLM:\\SOFTWARE\\Microsoft\\Edge\\NativeMessagingHosts\\com.ime. and call `chrome.runtime.sendNativeMessage('com.ime', {});` in js;",
-    "path": "D:\\repository\\Tebayaki\\WinKit\\x64\\Release\\IME.exe",
+    "path": "..\\..\\..\\x64\\Release\\IME.exe",
     "type": "stdio",
     "allowed_origins": [
-        "chrome-extension://obfgeekiijfiigneaamgngmompjadhha/"
+        "chrome-extension://mnilgdefemlfedanpdkpamdcpcgnpfhi/"
     ]
 }
